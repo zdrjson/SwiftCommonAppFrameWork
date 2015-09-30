@@ -14,12 +14,12 @@
 		2754C6B11BBBD69A00BDB33B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2754C6AF1BBBD69A00BDB33B /* LaunchScreen.storyboard */; };
 		2754C6BC1BBBD69A00BDB33B /* CommonAppFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2754C6BB1BBBD69A00BDB33B /* CommonAppFrameworkTests.swift */; };
 		2754C6C71BBBD69A00BDB33B /* CommonAppFrameworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2754C6C61BBBD69A00BDB33B /* CommonAppFrameworkUITests.swift */; };
-		2754C6D81BBBD79400BDB33B /* MyTabBarVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2754C6D71BBBD79400BDB33B /* MyTabBarVc.swift */; settings = {ASSET_TAGS = (); }; };
 		2754C6DC1BBBD7E800BDB33B /* SecondVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2754C6D91BBBD7E800BDB33B /* SecondVc.swift */; settings = {ASSET_TAGS = (); }; };
 		2754C6DD1BBBD7E800BDB33B /* ThirdVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2754C6DA1BBBD7E800BDB33B /* ThirdVc.swift */; settings = {ASSET_TAGS = (); }; };
 		2754C6DE1BBBD7E800BDB33B /* FourthVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2754C6DB1BBBD7E800BDB33B /* FourthVc.swift */; settings = {ASSET_TAGS = (); }; };
 		2754C6E01BBBD7EE00BDB33B /* FirstVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2754C6DF1BBBD7EE00BDB33B /* FirstVc.swift */; settings = {ASSET_TAGS = (); }; };
 		2754C6E21BBBD89500BDB33B /* NewFeatureVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2754C6E11BBBD89500BDB33B /* NewFeatureVc.swift */; settings = {ASSET_TAGS = (); }; };
+		2754C6E41BBBE1B200BDB33B /* MyTabBarVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2754C6E31BBBE1B200BDB33B /* MyTabBarVc.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,12 +53,12 @@
 		2754C6C21BBBD69A00BDB33B /* CommonAppFrameworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonAppFrameworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2754C6C61BBBD69A00BDB33B /* CommonAppFrameworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonAppFrameworkUITests.swift; sourceTree = "<group>"; };
 		2754C6C81BBBD69A00BDB33B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2754C6D71BBBD79400BDB33B /* MyTabBarVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyTabBarVc.swift; path = ../TabBarChildVc/MyTabBarVc.swift; sourceTree = "<group>"; };
 		2754C6D91BBBD7E800BDB33B /* SecondVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondVc.swift; sourceTree = "<group>"; };
 		2754C6DA1BBBD7E800BDB33B /* ThirdVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdVc.swift; sourceTree = "<group>"; };
 		2754C6DB1BBBD7E800BDB33B /* FourthVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthVc.swift; sourceTree = "<group>"; };
 		2754C6DF1BBBD7EE00BDB33B /* FirstVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstVc.swift; sourceTree = "<group>"; };
 		2754C6E11BBBD89500BDB33B /* NewFeatureVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewFeatureVc.swift; sourceTree = "<group>"; };
+		2754C6E31BBBE1B200BDB33B /* MyTabBarVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabBarVc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,7 +143,7 @@
 		2754C6D41BBBD72200BDB33B /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				2754C6D71BBBD79400BDB33B /* MyTabBarVc.swift */,
+				2754C6E31BBBE1B200BDB33B /* MyTabBarVc.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -299,11 +299,11 @@
 			files = (
 				2754C6DE1BBBD7E800BDB33B /* FourthVc.swift in Sources */,
 				2754C6A91BBBD69A00BDB33B /* ViewController.swift in Sources */,
-				2754C6D81BBBD79400BDB33B /* MyTabBarVc.swift in Sources */,
 				2754C6DC1BBBD7E800BDB33B /* SecondVc.swift in Sources */,
 				2754C6E21BBBD89500BDB33B /* NewFeatureVc.swift in Sources */,
 				2754C6A71BBBD69A00BDB33B /* AppDelegate.swift in Sources */,
 				2754C6E01BBBD7EE00BDB33B /* FirstVc.swift in Sources */,
+				2754C6E41BBBE1B200BDB33B /* MyTabBarVc.swift in Sources */,
 				2754C6DD1BBBD7E800BDB33B /* ThirdVc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
